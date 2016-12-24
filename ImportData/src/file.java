@@ -1,10 +1,12 @@
+import com.sun.deploy.util.StringUtils;
 
-public class file {
+import java.util.ArrayList;
+import java.util.List;
+
+class file {
     public static void main(String[] args) {
-        System.out.print("**".length());
-        System.out.print("".length());
-        System.out.print("*".length());
-        System.out.print("*******".length());
+
+       System.out.print("**".length()+""+"".length()+""+"*".length()+""+"*******".length());
     }
 }
 
